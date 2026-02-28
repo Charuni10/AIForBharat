@@ -1,0 +1,115 @@
+/* Language Dropdown */
+.lang-dropdown-wrap {
+    position: relative;
+    display: inline-block;
+}
+
+/* Trigger Button */
+.lang-trigger {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 9999px;
+    padding: 0.38rem 0.85rem 0.38rem 0.7rem;
+    color: #CBD5E1;
+    font-size: 0.82rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.18s;
+    font-family: inherit;
+    white-space: nowrap;
+}
+
+.lang-trigger:hover {
+    background: rgba(255, 255, 255, 0.14);
+    color: #fff;
+}
+
+.lang-current {
+    max-width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.lang-chevron {
+    transition: transform 0.2s;
+    opacity: 0.7;
+}
+
+.lang-chevron.open {
+    transform: rotate(180deg);
+}
+
+/* Dropdown Menu */
+.lang-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    min-width: 180px;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.13), 0 2px 8px rgba(0, 0, 0, 0.06);
+    padding: 0.4rem;
+    z-index: 500;
+    animation: dropDown 0.16s ease-out;
+}
+
+@keyframes dropDown {
+    from {
+        opacity: 0;
+        transform: translateY(-6px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Options */
+.lang-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.55rem 0.85rem;
+    border-radius: 8px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background 0.15s;
+    text-align: left;
+    font-family: inherit;
+}
+
+.lang-option:hover {
+    background: #F0F4FF;
+}
+
+.lang-option.active {
+    background: #EEF2FF;
+}
+
+.lang-native {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1E293B;
+}
+
+.lang-option.active .lang-native {
+    color: #4361EE;
+}
+
+.lang-english {
+    font-size: 0.74rem;
+    color: #94A3B8;
+}
+
+.lang-option.active .lang-english {
+    color: #8B9CF5;
+}
