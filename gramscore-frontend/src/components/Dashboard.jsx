@@ -1,17 +1,61 @@
 import React, { useState, useEffect } from 'react';
-import { Activity, MapPin, Zap, Brain, TrendingUp, Clock } from 'lucide-react';
+import { Activity, MapPin, Zap, Brain, TrendingUp, Clock, RefreshCw } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { api } from '../services/api';
 import './Dashboard.css';
 
 const Dashboard = () => {
     const { t } = useLanguage();
     const [animated, setAnimated] = useState(false);
-    const targetScore = 720;
+    const [loading, setLoading] = useState(false);
+    const [apiStatus, setApiStatus] = useState('checking');
+    const [scoreData, setScoreData] = useState(null);
+    const [targetScore, setTargetScore] = useState(720);
+    const [userData, setUserData] = useState({
+        upi_consistency: 85,
+        transaction_volume: 45000,
+        ndvi_avg: 0.7,
+        utility_payment_score: 90,
+        psychometric_score: 60,
+        weather_impact: 0.9,
+        land_size: 2.5,
+        crop_types: ['Rice', 'Wheat']
+    });
 
     useEffect(() => {
         const timer = setTimeout(() => setAnimated(true), 300);
+        checkApiHealth();
         return () => clearTimeout(timer);
     }, []);
+
+    const checkApiHealth = async () => {
+        try {
+            const health = await api.healthCheck();
+            setApiStatus(health.status === 'healthy' ? 'connected' : 'error');
+        } catch (error) {
+            console.error('API health check failed:', error);
+            setApiStatus('disconnected');
+        }
+    };
+
+    const calculateScore = async () => {
+        setLoading(true);
+        try {
+            const result = await api.calculateScore(userData);
+            
+            if (result.success) {
+                setScoreData(result);
+                setTargetScore(result.gramscore);
+            } else {
+                alert('Failed to calculate score. Please try again.');
+            }
+        } catch (error) {
+            console.error('Error calculating score:', error);
+            alert(`Error: ${error.message}\n\nMake sure the Flask API is running on port 5000`);
+        } finally {
+            setLoading(false);
+        }
+    };
 
     const circumference = 2 * Math.PI * 52;
     const scorePercent = ((targetScore - 300) / 600) * 100;
@@ -25,7 +69,12 @@ const Dashboard = () => {
 
     const scoreBandClass = targetScore >= 750 ? 'badge-excellent' : targetScore >= 650 ? 'badge-success' : 'badge-warning';
 
-    const components = [
+    const components = scoreData?.components ? [
+        { label: t.dashboard.txnFreq, pct: (scoreData.components.transaction_frequency || 0.85) * 100, weight: '30%', color: '#A08C6E', Icon: Activity },
+        { label: t.dashboard.agriProd, pct: (scoreData.components.agricultural_productivity || 0.70) * 100, weight: '30%', color: '#7C9B7A', Icon: MapPin },
+        { label: t.dashboard.utilityHygiene, pct: (scoreData.components.utility_payments || 0.90) * 100, weight: '20%', color: '#C4934A', Icon: Zap },
+        { label: t.dashboard.repayIntent, pct: (scoreData.components.psychometric_score || 0.60) * 100, weight: '20%', color: '#9B7A7A', Icon: Brain },
+    ] : [
         { label: t.dashboard.txnFreq, pct: 85, weight: '30%', color: '#A08C6E', Icon: Activity },
         { label: t.dashboard.agriProd, pct: 70, weight: '30%', color: '#7C9B7A', Icon: MapPin },
         { label: t.dashboard.utilityHygiene, pct: 90, weight: '20%', color: '#C4934A', Icon: Zap },
@@ -40,16 +89,58 @@ const Dashboard = () => {
 
     return (
         <div className="dashboard-container container animate-fade-in">
+            {/* API Status Indicator */}
+            <div style={{
+                position: 'fixed',
+                top: '1rem',
+                right: '1rem',
+                padding: '0.5rem 1rem',
+                borderRadius: '0.5rem',
+                background: apiStatus === 'connected' ? '#10b981' : apiStatus === 'checking' ? '#f59e0b' : '#ef4444',
+                color: 'white',
+                fontSize: '0.875rem',
+                zIndex: 1000,
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.5rem'
+            }}>
+                {apiStatus === 'connected' && '✅ Backend Connected'}
+                {apiStatus === 'checking' && '⏳ Checking...'}
+                {apiStatus === 'disconnected' && '❌ Backend Offline'}
+            </div>
+
             <header className="dashboard-header">
                 <div>
                     <h1>{t.dashboard.greeting}</h1>
                     <p className="text-muted">{t.dashboard.subtitle}</p>
                 </div>
-                <div className="header-meta">
-                    <Clock size={14} />
-                    <span className="text-muted text-sm">
-                        {t.dashboard.updated}: {new Date().toLocaleDateString('en-IN')}
-                    </span>
+                <div className="header-meta" style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+                    <button 
+                        onClick={calculateScore}
+                        disabled={loading || apiStatus !== 'connected'}
+                        style={{
+                            padding: '0.5rem 1rem',
+                            borderRadius: '0.5rem',
+                            background: loading ? '#9ca3af' : '#667eea',
+                            color: 'white',
+                            border: 'none',
+                            cursor: loading || apiStatus !== 'connected' ? 'not-allowed' : 'pointer',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '0.5rem',
+                            fontSize: '0.875rem',
+                            fontWeight: '500'
+                        }}
+                    >
+                        <RefreshCw size={14} className={loading ? 'spin' : ''} />
+                        {loading ? 'Calculating...' : 'Calculate Score'}
+                    </button>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                        <Clock size={14} />
+                        <span className="text-muted text-sm">
+                            {t.dashboard.updated}: {new Date().toLocaleDateString('en-IN')}
+                        </span>
+                    </div>
                 </div>
             </header>
 
@@ -137,6 +228,23 @@ const Dashboard = () => {
                     ))}
                 </ul>
             </div>
+
+            {/* AI Insights from Backend */}
+            {scoreData?.ai_insights && (
+                <div className="glass-panel" style={{ marginTop: '1.5rem' }}>
+                    <div className="rec-header">
+                        <Brain size={20} className="icon-accent" />
+                        <h3>🤖 AI Insights (AWS Bedrock)</h3>
+                    </div>
+                    <div style={{ padding: '1rem', background: 'rgba(102, 126, 234, 0.05)', borderRadius: '0.5rem', marginTop: '1rem' }}>
+                        <p style={{ margin: 0, lineHeight: '1.6' }}>{scoreData.ai_insights}</p>
+                        <div style={{ marginTop: '1rem', fontSize: '0.75rem', color: '#9ca3af' }}>
+                            Model: {scoreData.model_type} | Confidence: {(scoreData.confidence * 100).toFixed(1)}% | 
+                            Risk: {scoreData.risk_level}
+                        </div>
+                    </div>
+                </div>
+            )}
         </div>
     );
 };

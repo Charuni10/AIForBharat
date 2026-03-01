@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Shield, Smartphone, Satellite, Zap, CheckCircle } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { api } from '../services/api';
 import './ConsentForm.css';
 
 const ConsentForm = () => {
@@ -8,18 +9,38 @@ const ConsentForm = () => {
   const [consents, setConsents] = useState({ upi: false, satellite: false, utility: false });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
+  const [consentToken, setConsentToken] = useState(null);
 
   const toggle = (type) => setConsents(prev => ({ ...prev, [type]: !prev[type] }));
 
   const handleApproveAll = () => setConsents({ upi: true, satellite: true, utility: true });
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     setIsSubmitting(true);
-    setTimeout(() => {
+    
+    try {
+      // Prepare consent data
+      const dataTypes = [];
+      if (consents.upi) dataTypes.push('transactions');
+      if (consents.satellite) dataTypes.push('satellite');
+      if (consents.utility) dataTypes.push('utilities');
+      
+      // Submit to backend
+      const result = await api.submitConsent({ data_types: dataTypes });
+      
+      if (result.success) {
+        setConsentToken(result.consent_token);
+        setIsSuccess(true);
+        setTimeout(() => setIsSuccess(false), 3000);
+      } else {
+        alert('Failed to submit consent. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error submitting consent:', error);
+      alert(`Error: ${error.message}\n\nMake sure you're logged in and the API is running.`);
+    } finally {
       setIsSubmitting(false);
-      setIsSuccess(true);
-      setTimeout(() => setIsSuccess(false), 3000);
-    }, 1500);
+    }
   };
 
   const allApproved = Object.values(consents).every(Boolean);
@@ -88,6 +109,17 @@ const ConsentForm = () => {
 
       <div className="consent-actions glass-panel text-center">
         <h3>{t.consent.ready}</h3>
+        {consentToken && (
+          <div style={{ 
+            padding: '0.75rem', 
+            background: 'rgba(16, 185, 129, 0.1)', 
+            borderRadius: '0.5rem', 
+            marginBottom: '1rem',
+            fontSize: '0.875rem'
+          }}>
+            ✅ Consent recorded! Token: {consentToken.substring(0, 20)}...
+          </div>
+        )}
         <div className="button-group">
           {!allApproved && (
             <button className="btn-secondary" onClick={handleApproveAll}>
