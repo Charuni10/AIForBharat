@@ -6,11 +6,14 @@ import './VoiceAssessment.css';
 
 const questions = {
   en: [
-    { id: 1, text: 'How do you typically plan your monthly expenses?', sub: '', category: 'financial_discipline', keywords: ['budget', 'plan', 'save', 'track', 'record'] },
-    { id: 2, text: 'What would you do if you had an unexpected expense of ₹5000?', sub: '', category: 'risk_awareness', keywords: ['borrow', 'save', 'family', 'loan', 'emergency'] },
-    { id: 3, text: 'How do you decide when to invest in new farming equipment?', sub: '', category: 'planning_ability', keywords: ['profit', 'need', 'season', 'money', 'benefit'] },
-    { id: 4, text: 'Describe your experience with digital payments like UPI.', sub: '', category: 'digital_literacy', keywords: ['easy', 'use', 'phone', 'payment', 'app'] },
-    { id: 5, text: 'How confident are you about repaying a loan on time?', sub: '', category: 'confidence_level', keywords: ['confident', 'sure', 'definitely', 'always', 'never'] },
+    { id: 1, text: 'Tell me about your main source of income and how stable it has been over the past year.', sub: '', category: 'income_stability', keywords: ['farming', 'crops', 'regular', 'seasonal', 'stable', 'income', 'harvest'] },
+    { id: 2, text: 'If you receive ₹10,000 unexpectedly, what would you do with it?', sub: '', category: 'financial_discipline', keywords: ['save', 'invest', 'emergency', 'fund', 'equipment', 'seeds', 'future'] },
+    { id: 3, text: 'Have you ever taken a loan before? If yes, how did you manage the repayments?', sub: '', category: 'credit_history', keywords: ['yes', 'no', 'on time', 'regular', 'monthly', 'paid', 'completed', 'never missed'] },
+    { id: 4, text: 'What is your plan if your crop yield is lower than expected this season?', sub: '', category: 'risk_management', keywords: ['insurance', 'savings', 'alternative', 'work', 'family', 'plan', 'prepared'] },
+    { id: 5, text: 'How do you keep track of your daily expenses and income?', sub: '', category: 'financial_literacy', keywords: ['notebook', 'app', 'record', 'track', 'write', 'remember', 'calculate'] },
+    { id: 6, text: 'Describe your experience with mobile banking or UPI payments.', sub: '', category: 'digital_literacy', keywords: ['use', 'daily', 'easy', 'PhonePe', 'GPay', 'Paytm', 'comfortable', 'learning'] },
+    { id: 7, text: 'What are your financial goals for the next 2-3 years?', sub: '', category: 'future_planning', keywords: ['expand', 'buy', 'save', 'education', 'house', 'equipment', 'grow', 'improve'] },
+    { id: 8, text: 'How do you decide when to sell your produce? Do you wait for better prices?', sub: '', category: 'business_acumen', keywords: ['market', 'price', 'wait', 'timing', 'demand', 'mandi', 'trader', 'strategy'] },
   ],
   hi: [
     { id: 1, text: 'आप आमतौर पर अपने मासिक खर्चों की योजना कैसे बनाते हैं?', sub: 'How do you typically plan your monthly expenses?', category: 'financial_discipline', keywords: ['बजट', 'योजना', 'बचत', 'ट्रैक', 'रिकॉर्ड'] },

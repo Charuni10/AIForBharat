@@ -4,7 +4,7 @@ import { useLanguage } from '../context/LanguageContext';
 import { api } from '../services/api';
 import './Dashboard.css';
 
-const Dashboard = () => {
+const Dashboard = ({ user }) => {
     const { t } = useLanguage();
     const [animated, setAnimated] = useState(false);
     const [loading, setLoading] = useState(false);
@@ -89,26 +89,6 @@ const Dashboard = () => {
 
     return (
         <div className="dashboard-container container animate-fade-in">
-            {/* API Status Indicator */}
-            <div style={{
-                position: 'fixed',
-                top: '1rem',
-                right: '1rem',
-                padding: '0.5rem 1rem',
-                borderRadius: '0.5rem',
-                background: apiStatus === 'connected' ? '#10b981' : apiStatus === 'checking' ? '#f59e0b' : '#ef4444',
-                color: 'white',
-                fontSize: '0.875rem',
-                zIndex: 1000,
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.5rem'
-            }}>
-                {apiStatus === 'connected' && '✅ Backend Connected'}
-                {apiStatus === 'checking' && '⏳ Checking...'}
-                {apiStatus === 'disconnected' && '❌ Backend Offline'}
-            </div>
-
             <header className="dashboard-header">
                 <div>
                     <h1>{t.dashboard.greeting}</h1>

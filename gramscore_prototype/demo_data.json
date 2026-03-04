@@ -1,0 +1,4857 @@
+{
+  "rajesh_kumar_001": {
+    "profile": {
+      "name": "Rajesh Kumar",
+      "phone": "+91-9876543210",
+      "location": "Pune, Maharashtra",
+      "profile": {
+        "age": 42,
+        "experience_years": 20,
+        "land_acres": 3.5,
+        "crops": [
+          "Rice",
+          "Wheat",
+          "Vegetables"
+        ],
+        "education": "High School",
+        "family_size": 5
+      },
+      "gramscore": 785,
+      "risk_level": "Low",
+      "loan_recommendation": {
+        "approved": true,
+        "amount": 200000,
+        "interest_rate": 9.0,
+        "tenure_months": 24,
+        "emi": 9150
+      },
+      "data": {
+        "upi_consistency": 92,
+        "transaction_volume": 45000,
+        "ndvi_avg": 0.72,
+        "utility_payment_score": 88,
+        "psychometric_score": 85,
+        "weather_impact": 0.92,
+        "land_size": 3.5,
+        "crop_types": [
+          "Rice",
+          "Wheat",
+          "Vegetables"
+        ]
+      },
+      "voice_responses": {
+        "q1": {
+          "question": "How do you typically plan your monthly expenses?",
+          "response": "I maintain a detailed notebook for all expenses. Every month I set aside 20% for savings and emergencies.",
+          "score": 90
+        },
+        "q2": {
+          "question": "What would you do if you had an unexpected expense of \u20b95000?",
+          "response": "I have an emergency fund of \u20b915,000. If needed, I would use that first before asking family.",
+          "score": 88
+        },
+        "q3": {
+          "question": "How do you decide when to invest in new farming equipment?",
+          "response": "I check market prices, talk to other farmers, and only buy equipment during off-season when prices are lower.",
+          "score": 85
+        },
+        "q4": {
+          "question": "Describe your experience with digital payments like UPI.",
+          "response": "I use PhonePe daily for all payments. It's very convenient and I can track everything.",
+          "score": 92
+        },
+        "q5": {
+          "question": "How confident are you about repaying a loan on time?",
+          "response": "Very confident. I have never missed a payment in 15 years of taking loans.",
+          "score": 95
+        }
+      }
+    },
+    "transactions": [
+      {
+        "date": "2026-03-04",
+        "merchant": "Vegetable Market",
+        "amount": 1275.87,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-04",
+        "merchant": "Dairy Cooperative",
+        "amount": 3238.78,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-04",
+        "merchant": "Dairy Cooperative",
+        "amount": 3892.49,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-04",
+        "merchant": "Agricultural Produce Market",
+        "amount": 4188.08,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-03",
+        "merchant": "Vegetable Market",
+        "amount": 4506.07,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-03",
+        "merchant": "Fuel Station",
+        "amount": 1140.65,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-03",
+        "merchant": "Fuel Station",
+        "amount": 1233.78,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-03",
+        "merchant": "Dairy Cooperative",
+        "amount": 1325.1,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-02",
+        "merchant": "Agricultural Produce Market",
+        "amount": 1786.16,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-01",
+        "merchant": "Dairy Cooperative",
+        "amount": 3395.92,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-01",
+        "merchant": "Grocery Store",
+        "amount": 1384.09,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-01",
+        "merchant": "Mobile Recharge",
+        "amount": 1011.5,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-28",
+        "merchant": "Medical Store",
+        "amount": 1258.83,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-28",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 2903.18,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-27",
+        "merchant": "Fuel Station",
+        "amount": 547.34,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-27",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 1662.71,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-27",
+        "merchant": "Medical Store",
+        "amount": 302.26,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-26",
+        "merchant": "Electricity Bill",
+        "amount": 875.75,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-26",
+        "merchant": "Dairy Cooperative",
+        "amount": 2142.59,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-26",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 3604.6,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-26",
+        "merchant": "Vegetable Market",
+        "amount": 4593.11,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-25",
+        "merchant": "Fuel Station",
+        "amount": 1272.96,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-25",
+        "merchant": "Fuel Station",
+        "amount": 524.49,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-25",
+        "merchant": "Agricultural Produce Market",
+        "amount": 884.77,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-25",
+        "merchant": "Agricultural Produce Market",
+        "amount": 2996.69,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-24",
+        "merchant": "Mobile Recharge",
+        "amount": 665.06,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-24",
+        "merchant": "Electricity Bill",
+        "amount": 427.63,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-23",
+        "merchant": "Medical Store",
+        "amount": 236.47,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-23",
+        "merchant": "Vegetable Market",
+        "amount": 3495.82,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-23",
+        "merchant": "Grocery Store",
+        "amount": 694.14,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-22",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 4372.67,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-22",
+        "merchant": "Fuel Station",
+        "amount": 1397.91,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-22",
+        "merchant": "Medical Store",
+        "amount": 738.92,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-21",
+        "merchant": "Dairy Cooperative",
+        "amount": 2354.77,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-20",
+        "merchant": "Medical Store",
+        "amount": 1031.44,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-20",
+        "merchant": "Grocery Store",
+        "amount": 1253.71,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-19",
+        "merchant": "Agricultural Produce Market",
+        "amount": 4561.17,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-19",
+        "merchant": "Grocery Store",
+        "amount": 1224.4,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-18",
+        "merchant": "Agricultural Produce Market",
+        "amount": 752.54,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-17",
+        "merchant": "Dairy Cooperative",
+        "amount": 4943.89,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-16",
+        "merchant": "Agricultural Produce Market",
+        "amount": 3944.49,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-16",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 3680.24,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-16",
+        "merchant": "Agricultural Produce Market",
+        "amount": 1854.7,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-14",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 4715.3,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-14",
+        "merchant": "Dairy Cooperative",
+        "amount": 1975.94,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-14",
+        "merchant": "Mobile Recharge",
+        "amount": 609.75,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-13",
+        "merchant": "Fuel Station",
+        "amount": 513.61,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-13",
+        "merchant": "Dairy Cooperative",
+        "amount": 1150.43,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-13",
+        "merchant": "Vegetable Market",
+        "amount": 3493.08,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-13",
+        "merchant": "Mobile Recharge",
+        "amount": 1417.63,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-12",
+        "merchant": "Fuel Station",
+        "amount": 646.75,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-12",
+        "merchant": "Fuel Station",
+        "amount": 1424.33,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-12",
+        "merchant": "Medical Store",
+        "amount": 326.8,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-12",
+        "merchant": "Vegetable Market",
+        "amount": 2218.82,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-11",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 2807.7,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-11",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 3322.85,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-11",
+        "merchant": "Agricultural Produce Market",
+        "amount": 3144.85,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-10",
+        "merchant": "Medical Store",
+        "amount": 200.82,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-07",
+        "merchant": "Mobile Recharge",
+        "amount": 1089.73,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-07",
+        "merchant": "Electricity Bill",
+        "amount": 1471.16,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-07",
+        "merchant": "Electricity Bill",
+        "amount": 318.93,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-06",
+        "merchant": "Vegetable Market",
+        "amount": 3654.82,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-06",
+        "merchant": "Dairy Cooperative",
+        "amount": 2660.99,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-06",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 844.92,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-05",
+        "merchant": "Agricultural Produce Market",
+        "amount": 2779.45,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-05",
+        "merchant": "Dairy Cooperative",
+        "amount": 2262.29,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-05",
+        "merchant": "Dairy Cooperative",
+        "amount": 1676.26,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-04",
+        "merchant": "Medical Store",
+        "amount": 731.72,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-04",
+        "merchant": "Vegetable Market",
+        "amount": 3334.61,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-04",
+        "merchant": "Grocery Store",
+        "amount": 747.89,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-03",
+        "merchant": "Agricultural Produce Market",
+        "amount": 1614.02,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-03",
+        "merchant": "Medical Store",
+        "amount": 1113.99,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-03",
+        "merchant": "Fuel Station",
+        "amount": 556.07,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-03",
+        "merchant": "Vegetable Market",
+        "amount": 896.77,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-02",
+        "merchant": "Medical Store",
+        "amount": 342.49,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-01",
+        "merchant": "Agricultural Produce Market",
+        "amount": 2261.17,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-01",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 3020.72,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-01",
+        "merchant": "Agricultural Produce Market",
+        "amount": 559.97,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-01",
+        "merchant": "Fuel Station",
+        "amount": 465.96,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-31",
+        "merchant": "Medical Store",
+        "amount": 1157.27,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-31",
+        "merchant": "Vegetable Market",
+        "amount": 2917.61,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-31",
+        "merchant": "Dairy Cooperative",
+        "amount": 763.78,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-31",
+        "merchant": "Dairy Cooperative",
+        "amount": 2400.77,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-30",
+        "merchant": "Agricultural Produce Market",
+        "amount": 4308.39,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-29",
+        "merchant": "Dairy Cooperative",
+        "amount": 4279.96,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-29",
+        "merchant": "Agricultural Produce Market",
+        "amount": 2653.05,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-28",
+        "merchant": "Fuel Station",
+        "amount": 723.26,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-28",
+        "merchant": "Fuel Station",
+        "amount": 413.34,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-28",
+        "merchant": "Fuel Station",
+        "amount": 552.83,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-27",
+        "merchant": "Electricity Bill",
+        "amount": 350.24,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-26",
+        "merchant": "Fuel Station",
+        "amount": 1181.14,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-26",
+        "merchant": "Grocery Store",
+        "amount": 652.46,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-25",
+        "merchant": "Mobile Recharge",
+        "amount": 1496.84,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-24",
+        "merchant": "Fuel Station",
+        "amount": 628.68,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-24",
+        "merchant": "Fuel Station",
+        "amount": 948.59,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-24",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 2840.22,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-24",
+        "merchant": "Vegetable Market",
+        "amount": 2881.43,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-23",
+        "merchant": "Vegetable Market",
+        "amount": 4872.16,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-23",
+        "merchant": "Dairy Cooperative",
+        "amount": 1525.24,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-23",
+        "merchant": "Vegetable Market",
+        "amount": 4542.67,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-22",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 4016.89,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-22",
+        "merchant": "Fuel Station",
+        "amount": 455.57,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-21",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 3075.37,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-20",
+        "merchant": "Grocery Store",
+        "amount": 1276.85,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-20",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 1612.67,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-20",
+        "merchant": "Dairy Cooperative",
+        "amount": 2000.92,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-19",
+        "merchant": "Vegetable Market",
+        "amount": 3767.86,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-18",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 2239.56,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-17",
+        "merchant": "Dairy Cooperative",
+        "amount": 1410.44,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-16",
+        "merchant": "Mobile Recharge",
+        "amount": 1129.73,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-16",
+        "merchant": "Vegetable Market",
+        "amount": 2783.19,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-15",
+        "merchant": "Dairy Cooperative",
+        "amount": 3523.18,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-15",
+        "merchant": "Dairy Cooperative",
+        "amount": 1734.46,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-15",
+        "merchant": "Dairy Cooperative",
+        "amount": 3009.85,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-15",
+        "merchant": "Fuel Station",
+        "amount": 1470.87,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-14",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 520.95,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-13",
+        "merchant": "Electricity Bill",
+        "amount": 1195.99,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-12",
+        "merchant": "Vegetable Market",
+        "amount": 4107.88,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-12",
+        "merchant": "Vegetable Market",
+        "amount": 4268.23,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-12",
+        "merchant": "Medical Store",
+        "amount": 108.76,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-12",
+        "merchant": "Fuel Station",
+        "amount": 795.76,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-11",
+        "merchant": "Mobile Recharge",
+        "amount": 952.69,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-11",
+        "merchant": "Grocery Store",
+        "amount": 1397.71,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-10",
+        "merchant": "Vegetable Market",
+        "amount": 2441.51,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-10",
+        "merchant": "Electricity Bill",
+        "amount": 266.8,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-10",
+        "merchant": "Vegetable Market",
+        "amount": 4414.91,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-10",
+        "merchant": "Agricultural Produce Market",
+        "amount": 4848.57,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-09",
+        "merchant": "Dairy Cooperative",
+        "amount": 3001.05,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-09",
+        "merchant": "Agricultural Produce Market",
+        "amount": 2046.33,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-07",
+        "merchant": "Medical Store",
+        "amount": 1108.52,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-07",
+        "merchant": "Mobile Recharge",
+        "amount": 603.52,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-07",
+        "merchant": "Medical Store",
+        "amount": 1068.7,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-06",
+        "merchant": "Dairy Cooperative",
+        "amount": 2473.58,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-06",
+        "merchant": "Medical Store",
+        "amount": 1343.37,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-06",
+        "merchant": "Electricity Bill",
+        "amount": 814.51,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-05",
+        "merchant": "Dairy Cooperative",
+        "amount": 3828.5,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-05",
+        "merchant": "Electricity Bill",
+        "amount": 1121.74,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-05",
+        "merchant": "Electricity Bill",
+        "amount": 1058.85,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-05",
+        "merchant": "Dairy Cooperative",
+        "amount": 1004.16,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-04",
+        "merchant": "Electricity Bill",
+        "amount": 739.2,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-04",
+        "merchant": "Agricultural Produce Market",
+        "amount": 859.81,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-04",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 3050.94,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-03",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 1987.64,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-03",
+        "merchant": "Agricultural Produce Market",
+        "amount": 2992.71,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-02",
+        "merchant": "Electricity Bill",
+        "amount": 1435.6,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-02",
+        "merchant": "Dairy Cooperative",
+        "amount": 863.2,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-02",
+        "merchant": "Mobile Recharge",
+        "amount": 230.44,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-02",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 1839.8,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-01",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 4028.78,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-01",
+        "merchant": "Mobile Recharge",
+        "amount": 900.57,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-01",
+        "merchant": "Dairy Cooperative",
+        "amount": 2336.43,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-31",
+        "merchant": "Agricultural Produce Market",
+        "amount": 2230.0,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-31",
+        "merchant": "Agricultural Produce Market",
+        "amount": 4106.44,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-30",
+        "merchant": "Agricultural Produce Market",
+        "amount": 1017.78,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-30",
+        "merchant": "Dairy Cooperative",
+        "amount": 3849.73,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-30",
+        "merchant": "Grocery Store",
+        "amount": 900.94,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-30",
+        "merchant": "Medical Store",
+        "amount": 126.57,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-29",
+        "merchant": "Dairy Cooperative",
+        "amount": 2571.35,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-27",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 1980.21,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-26",
+        "merchant": "Dairy Cooperative",
+        "amount": 3729.79,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-26",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 2292.53,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-26",
+        "merchant": "Agricultural Produce Market",
+        "amount": 2297.27,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-25",
+        "merchant": "Dairy Cooperative",
+        "amount": 3893.48,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-25",
+        "merchant": "Fuel Station",
+        "amount": 300.39,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-25",
+        "merchant": "Fuel Station",
+        "amount": 1153.85,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-24",
+        "merchant": "Dairy Cooperative",
+        "amount": 2334.72,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-24",
+        "merchant": "Dairy Cooperative",
+        "amount": 4493.54,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-23",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 964.6,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-22",
+        "merchant": "Dairy Cooperative",
+        "amount": 1912.54,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-21",
+        "merchant": "Grocery Store",
+        "amount": 564.97,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-21",
+        "merchant": "Agricultural Produce Market",
+        "amount": 3359.76,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-21",
+        "merchant": "Grocery Store",
+        "amount": 1294.7,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-21",
+        "merchant": "Vegetable Market",
+        "amount": 2732.17,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-20",
+        "merchant": "Dairy Cooperative",
+        "amount": 2125.29,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-20",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 1660.65,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-19",
+        "merchant": "Electricity Bill",
+        "amount": 1418.95,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-18",
+        "merchant": "Agricultural Produce Market",
+        "amount": 2519.1,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-18",
+        "merchant": "Electricity Bill",
+        "amount": 186.92,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-17",
+        "merchant": "Electricity Bill",
+        "amount": 126.66,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-17",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 4904.92,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-17",
+        "merchant": "Agricultural Produce Market",
+        "amount": 930.58,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-16",
+        "merchant": "Fuel Station",
+        "amount": 1291.52,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-16",
+        "merchant": "Medical Store",
+        "amount": 327.61,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-16",
+        "merchant": "Grocery Store",
+        "amount": 1334.44,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-16",
+        "merchant": "Fuel Station",
+        "amount": 322.25,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-14",
+        "merchant": "Fuel Station",
+        "amount": 1390.06,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-14",
+        "merchant": "Mobile Recharge",
+        "amount": 1299.62,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-13",
+        "merchant": "Agricultural Produce Market",
+        "amount": 1645.25,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-12",
+        "merchant": "Grocery Store",
+        "amount": 438.2,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-12",
+        "merchant": "Dairy Cooperative",
+        "amount": 1058.11,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-12",
+        "merchant": "Fuel Station",
+        "amount": 854.33,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-12",
+        "merchant": "Dairy Cooperative",
+        "amount": 4153.37,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-11",
+        "merchant": "Medical Store",
+        "amount": 1276.36,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-11",
+        "merchant": "Medical Store",
+        "amount": 229.32,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-09",
+        "merchant": "Grain Buyer Co-op",
+        "amount": 702.63,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-09",
+        "merchant": "Agricultural Produce Market",
+        "amount": 4893.14,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-07",
+        "merchant": "Agricultural Produce Market",
+        "amount": 2794.73,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-07",
+        "merchant": "Vegetable Market",
+        "amount": 4612.18,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-06",
+        "merchant": "Fuel Station",
+        "amount": 168.45,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-06",
+        "merchant": "Vegetable Market",
+        "amount": 4291.52,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-06",
+        "merchant": "Electricity Bill",
+        "amount": 1337.07,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-05",
+        "merchant": "Mobile Recharge",
+        "amount": 102.81,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      }
+    ],
+    "satellite": {
+      "coordinates": {
+        "lat": 18.5204,
+        "lon": 73.8567
+      },
+      "ndvi_average": 0.72,
+      "ndvi_trend": "improving",
+      "timeseries": [
+        {
+          "date": "2026-03-04",
+          "ndvi": 0.564,
+          "cloud_cover": 7.9099977796410315,
+          "quality": "good"
+        },
+        {
+          "date": "2026-02-02",
+          "ndvi": 0.854,
+          "cloud_cover": 6.53115574076203,
+          "quality": "good"
+        },
+        {
+          "date": "2026-01-03",
+          "ndvi": 0.777,
+          "cloud_cover": 28.41791269312242,
+          "quality": "good"
+        },
+        {
+          "date": "2025-12-04",
+          "ndvi": 0.806,
+          "cloud_cover": 7.194719430278312,
+          "quality": "good"
+        },
+        {
+          "date": "2025-11-04",
+          "ndvi": 0.822,
+          "cloud_cover": 27.640636666928955,
+          "quality": "good"
+        },
+        {
+          "date": "2025-10-05",
+          "ndvi": 0.787,
+          "cloud_cover": 18.142597935220834,
+          "quality": "good"
+        },
+        {
+          "date": "2025-09-05",
+          "ndvi": 0.812,
+          "cloud_cover": 16.995993334226203,
+          "quality": "good"
+        },
+        {
+          "date": "2025-08-06",
+          "ndvi": 0.9,
+          "cloud_cover": 21.572295729811827,
+          "quality": "good"
+        },
+        {
+          "date": "2025-07-07",
+          "ndvi": 0.795,
+          "cloud_cover": 15.55164600804088,
+          "quality": "moderate"
+        },
+        {
+          "date": "2025-06-07",
+          "ndvi": 0.529,
+          "cloud_cover": 16.84723072399735,
+          "quality": "good"
+        },
+        {
+          "date": "2025-05-08",
+          "ndvi": 0.586,
+          "cloud_cover": 11.632565442752322,
+          "quality": "good"
+        },
+        {
+          "date": "2025-04-08",
+          "ndvi": 0.614,
+          "cloud_cover": 13.546973726170489,
+          "quality": "good"
+        }
+      ],
+      "land_validated": true,
+      "crop_health": "excellent"
+    },
+    "utilities": {
+      "payments": [
+        {
+          "type": "electricity",
+          "bill_date": "2026-03-04",
+          "due_date": "2026-03-19",
+          "amount": 897.83,
+          "paid": true,
+          "payment_date": "2026-03-04",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2026-03-04",
+          "due_date": "2026-03-14",
+          "amount": 473.93,
+          "paid": true,
+          "payment_date": "2026-03-04",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2026-02-02",
+          "due_date": "2026-02-17",
+          "amount": 1065.85,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2026-02-02",
+          "due_date": "2026-02-12",
+          "amount": 437.77,
+          "paid": true,
+          "payment_date": "2026-02-04",
+          "delay_days": 2
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2026-01-03",
+          "due_date": "2026-01-18",
+          "amount": 1039.92,
+          "paid": true,
+          "payment_date": "2026-01-03",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2026-01-03",
+          "due_date": "2026-01-13",
+          "amount": 333.02,
+          "paid": true,
+          "payment_date": "2026-01-03",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-12-04",
+          "due_date": "2025-12-19",
+          "amount": 644.27,
+          "paid": true,
+          "payment_date": "2025-12-04",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-12-04",
+          "due_date": "2025-12-14",
+          "amount": 346.95,
+          "paid": true,
+          "payment_date": "2025-12-13",
+          "delay_days": 9
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-11-04",
+          "due_date": "2025-11-19",
+          "amount": 886.56,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-11-04",
+          "due_date": "2025-11-14",
+          "amount": 393.14,
+          "paid": true,
+          "payment_date": "2025-11-04",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-10-05",
+          "due_date": "2025-10-20",
+          "amount": 995.79,
+          "paid": true,
+          "payment_date": "2025-10-05",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-10-05",
+          "due_date": "2025-10-15",
+          "amount": 397.93,
+          "paid": true,
+          "payment_date": "2025-10-05",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-09-05",
+          "due_date": "2025-09-20",
+          "amount": 605.35,
+          "paid": true,
+          "payment_date": "2025-09-16",
+          "delay_days": 11
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-09-05",
+          "due_date": "2025-09-15",
+          "amount": 282.34,
+          "paid": true,
+          "payment_date": "2025-09-05",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-08-06",
+          "due_date": "2025-08-21",
+          "amount": 809.83,
+          "paid": true,
+          "payment_date": "2025-08-06",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-08-06",
+          "due_date": "2025-08-16",
+          "amount": 326.68,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-07-07",
+          "due_date": "2025-07-22",
+          "amount": 802.9,
+          "paid": true,
+          "payment_date": "2025-07-07",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-07-07",
+          "due_date": "2025-07-17",
+          "amount": 349.53,
+          "paid": true,
+          "payment_date": "2025-07-14",
+          "delay_days": 7
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-06-07",
+          "due_date": "2025-06-22",
+          "amount": 809.07,
+          "paid": true,
+          "payment_date": "2025-06-07",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-06-07",
+          "due_date": "2025-06-17",
+          "amount": 354.1,
+          "paid": true,
+          "payment_date": "2025-06-07",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-05-08",
+          "due_date": "2025-05-23",
+          "amount": 1073.81,
+          "paid": true,
+          "payment_date": "2025-05-18",
+          "delay_days": 10
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-05-08",
+          "due_date": "2025-05-18",
+          "amount": 370.57,
+          "paid": true,
+          "payment_date": "2025-05-08",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-04-08",
+          "due_date": "2025-04-23",
+          "amount": 1132.25,
+          "paid": true,
+          "payment_date": "2025-04-11",
+          "delay_days": 3
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-04-08",
+          "due_date": "2025-04-18",
+          "amount": 483.5,
+          "paid": true,
+          "payment_date": "2025-04-10",
+          "delay_days": 2
+        }
+      ],
+      "summary": {
+        "total_bills": 24,
+        "paid_bills": 21,
+        "payment_rate": 87.5,
+        "average_delay": 2.1,
+        "score": 88
+      }
+    },
+    "weather": {
+      "risk_level": "low",
+      "risk_score": 0.92,
+      "risk_factors": [],
+      "annual_rainfall": 920,
+      "extreme_weather_days": 2,
+      "drought_risk": false,
+      "flood_risk": false
+    },
+    "ai_insights": "\nRisk Assessment: Low Risk\n\nRajesh Kumar demonstrates excellent creditworthiness with a GramScore of 785/900.\n\nKey Strengths:\n\u2022 Consistent digital payment history (92% UPI consistency)\n\u2022 Strong agricultural productivity (NDVI: 0.72)\n\u2022 Reliable utility payment record (88/100)\n\u2022 High financial discipline and planning ability\n\nRecommendations:\n\u2022 Approved for loan amount up to \u20b92,00,000\n\u2022 Eligible for preferential interest rate of 9%\n\u2022 Consider for premium banking services\n\u2022 Suitable for agricultural equipment financing\n\nThe applicant shows strong repayment capacity and financial responsibility.\n        "
+  },
+  "sunita_devi_002": {
+    "profile": {
+      "name": "Sunita Devi",
+      "phone": "+91-9876543211",
+      "location": "Nashik, Maharashtra",
+      "profile": {
+        "age": 35,
+        "experience_years": 8,
+        "land_acres": 1.8,
+        "crops": [
+          "Onions",
+          "Tomatoes"
+        ],
+        "education": "Primary School",
+        "family_size": 4
+      },
+      "gramscore": 625,
+      "risk_level": "Medium",
+      "loan_recommendation": {
+        "approved": true,
+        "amount": 75000,
+        "interest_rate": 12.0,
+        "tenure_months": 18,
+        "emi": 4850,
+        "conditions": [
+          "Monthly monitoring",
+          "Crop insurance required"
+        ]
+      },
+      "data": {
+        "upi_consistency": 68,
+        "transaction_volume": 22000,
+        "ndvi_avg": 0.52,
+        "utility_payment_score": 65,
+        "psychometric_score": 62,
+        "weather_impact": 0.78,
+        "land_size": 1.8,
+        "crop_types": [
+          "Onions",
+          "Tomatoes"
+        ]
+      },
+      "voice_responses": {
+        "q1": {
+          "question": "How do you typically plan your monthly expenses?",
+          "response": "I try to manage expenses but sometimes it's difficult. I keep some money aside when I can.",
+          "score": 65
+        },
+        "q2": {
+          "question": "What would you do if you had an unexpected expense of \u20b95000?",
+          "response": "I would probably borrow from my brother or take a small loan from the local cooperative.",
+          "score": 60
+        },
+        "q3": {
+          "question": "How do you decide when to invest in new farming equipment?",
+          "response": "When the old equipment breaks down, I buy new one. I check with 2-3 shops for prices.",
+          "score": 62
+        },
+        "q4": {
+          "question": "Describe your experience with digital payments like UPI.",
+          "response": "I started using UPI last year. Sometimes I use it, sometimes cash. Still learning.",
+          "score": 58
+        },
+        "q5": {
+          "question": "How confident are you about repaying a loan on time?",
+          "response": "I think I can repay on time. I will try my best to manage.",
+          "score": 68
+        }
+      }
+    },
+    "transactions": [
+      {
+        "date": "2026-03-04",
+        "merchant": "Medical Store",
+        "amount": 920.54,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-04",
+        "merchant": "Milk Collection",
+        "amount": 4194.79,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-04",
+        "merchant": "Grocery Store",
+        "amount": 215.61,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-02",
+        "merchant": "Local Trader",
+        "amount": 2791.48,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-02",
+        "merchant": "Milk Collection",
+        "amount": 3540.14,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-02",
+        "merchant": "Mobile Recharge",
+        "amount": 661.39,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-02",
+        "merchant": "Mobile Recharge",
+        "amount": 1109.05,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-28",
+        "merchant": "Local Trader",
+        "amount": 2872.5,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-28",
+        "merchant": "Vegetable Market",
+        "amount": 3266.63,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-27",
+        "merchant": "Grocery Store",
+        "amount": 473.88,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-27",
+        "merchant": "Mobile Recharge",
+        "amount": 1220.12,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-26",
+        "merchant": "Medical Store",
+        "amount": 800.82,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-25",
+        "merchant": "Grocery Store",
+        "amount": 357.77,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-25",
+        "merchant": "Local Trader",
+        "amount": 2882.9,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-25",
+        "merchant": "Vegetable Market",
+        "amount": 1121.27,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-25",
+        "merchant": "Medical Store",
+        "amount": 192.78,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-22",
+        "merchant": "Milk Collection",
+        "amount": 4060.37,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-22",
+        "merchant": "Local Trader",
+        "amount": 3014.64,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-22",
+        "merchant": "Medical Store",
+        "amount": 914.13,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-21",
+        "merchant": "Mobile Recharge",
+        "amount": 445.07,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-21",
+        "merchant": "Mobile Recharge",
+        "amount": 912.27,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-21",
+        "merchant": "Vegetable Market",
+        "amount": 3415.43,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-20",
+        "merchant": "Mobile Recharge",
+        "amount": 1168.97,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-20",
+        "merchant": "Local Trader",
+        "amount": 4082.99,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-19",
+        "merchant": "Milk Collection",
+        "amount": 3277.71,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-15",
+        "merchant": "Vegetable Market",
+        "amount": 3277.68,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-15",
+        "merchant": "Grocery Store",
+        "amount": 1216.9,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-14",
+        "merchant": "Medical Store",
+        "amount": 1467.46,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-13",
+        "merchant": "Local Trader",
+        "amount": 3841.87,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-13",
+        "merchant": "Milk Collection",
+        "amount": 4026.5,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-12",
+        "merchant": "Grocery Store",
+        "amount": 830.19,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-12",
+        "merchant": "Medical Store",
+        "amount": 759.09,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-12",
+        "merchant": "Medical Store",
+        "amount": 1303.55,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-11",
+        "merchant": "Local Trader",
+        "amount": 2887.26,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-09",
+        "merchant": "Medical Store",
+        "amount": 558.14,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-09",
+        "merchant": "Milk Collection",
+        "amount": 3147.26,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-09",
+        "merchant": "Medical Store",
+        "amount": 786.58,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-09",
+        "merchant": "Milk Collection",
+        "amount": 1300.01,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-08",
+        "merchant": "Local Trader",
+        "amount": 2543.97,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-08",
+        "merchant": "Vegetable Market",
+        "amount": 3110.03,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-07",
+        "merchant": "Vegetable Market",
+        "amount": 3384.26,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-04",
+        "merchant": "Milk Collection",
+        "amount": 2458.14,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-04",
+        "merchant": "Local Trader",
+        "amount": 2377.14,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-04",
+        "merchant": "Grocery Store",
+        "amount": 530.24,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-03",
+        "merchant": "Grocery Store",
+        "amount": 851.83,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-02",
+        "merchant": "Milk Collection",
+        "amount": 1410.95,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-02",
+        "merchant": "Local Trader",
+        "amount": 842.37,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-02",
+        "merchant": "Local Trader",
+        "amount": 3461.59,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-01",
+        "merchant": "Medical Store",
+        "amount": 131.02,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-30",
+        "merchant": "Local Trader",
+        "amount": 932.51,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-30",
+        "merchant": "Vegetable Market",
+        "amount": 4257.57,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-30",
+        "merchant": "Mobile Recharge",
+        "amount": 1265.9,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-29",
+        "merchant": "Local Trader",
+        "amount": 3236.19,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-27",
+        "merchant": "Milk Collection",
+        "amount": 2238.25,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-26",
+        "merchant": "Local Trader",
+        "amount": 2615.52,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-26",
+        "merchant": "Medical Store",
+        "amount": 424.91,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-26",
+        "merchant": "Mobile Recharge",
+        "amount": 1035.41,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-26",
+        "merchant": "Local Trader",
+        "amount": 655.01,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-25",
+        "merchant": "Local Trader",
+        "amount": 2179.87,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-25",
+        "merchant": "Local Trader",
+        "amount": 4058.93,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-25",
+        "merchant": "Mobile Recharge",
+        "amount": 278.86,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-23",
+        "merchant": "Vegetable Market",
+        "amount": 2434.41,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-23",
+        "merchant": "Vegetable Market",
+        "amount": 4637.87,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-22",
+        "merchant": "Local Trader",
+        "amount": 4833.77,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-22",
+        "merchant": "Local Trader",
+        "amount": 771.81,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-22",
+        "merchant": "Vegetable Market",
+        "amount": 527.68,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-21",
+        "merchant": "Mobile Recharge",
+        "amount": 960.11,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-21",
+        "merchant": "Milk Collection",
+        "amount": 2361.83,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-21",
+        "merchant": "Local Trader",
+        "amount": 4196.53,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-21",
+        "merchant": "Grocery Store",
+        "amount": 116.09,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-19",
+        "merchant": "Vegetable Market",
+        "amount": 2119.78,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-19",
+        "merchant": "Grocery Store",
+        "amount": 973.41,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-19",
+        "merchant": "Mobile Recharge",
+        "amount": 966.39,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-18",
+        "merchant": "Medical Store",
+        "amount": 682.18,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-18",
+        "merchant": "Local Trader",
+        "amount": 1155.76,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-18",
+        "merchant": "Vegetable Market",
+        "amount": 1271.87,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-18",
+        "merchant": "Grocery Store",
+        "amount": 954.0,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-17",
+        "merchant": "Medical Store",
+        "amount": 868.71,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-17",
+        "merchant": "Vegetable Market",
+        "amount": 4833.81,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-17",
+        "merchant": "Medical Store",
+        "amount": 492.43,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-17",
+        "merchant": "Medical Store",
+        "amount": 985.9,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-16",
+        "merchant": "Mobile Recharge",
+        "amount": 547.74,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-16",
+        "merchant": "Medical Store",
+        "amount": 328.6,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-16",
+        "merchant": "Grocery Store",
+        "amount": 1352.54,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-16",
+        "merchant": "Local Trader",
+        "amount": 4415.68,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-15",
+        "merchant": "Milk Collection",
+        "amount": 2624.99,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-15",
+        "merchant": "Vegetable Market",
+        "amount": 4215.77,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-15",
+        "merchant": "Milk Collection",
+        "amount": 1521.98,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-15",
+        "merchant": "Grocery Store",
+        "amount": 1087.71,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-13",
+        "merchant": "Local Trader",
+        "amount": 3010.97,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-13",
+        "merchant": "Grocery Store",
+        "amount": 112.08,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-13",
+        "merchant": "Mobile Recharge",
+        "amount": 110.69,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-13",
+        "merchant": "Vegetable Market",
+        "amount": 3880.27,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-12",
+        "merchant": "Vegetable Market",
+        "amount": 2172.57,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-12",
+        "merchant": "Local Trader",
+        "amount": 3500.45,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-12",
+        "merchant": "Milk Collection",
+        "amount": 1294.68,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-10",
+        "merchant": "Medical Store",
+        "amount": 195.27,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-09",
+        "merchant": "Vegetable Market",
+        "amount": 4513.8,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-09",
+        "merchant": "Medical Store",
+        "amount": 1190.11,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-09",
+        "merchant": "Mobile Recharge",
+        "amount": 1091.34,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-08",
+        "merchant": "Milk Collection",
+        "amount": 3943.67,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-08",
+        "merchant": "Local Trader",
+        "amount": 3504.87,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-08",
+        "merchant": "Medical Store",
+        "amount": 326.76,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-07",
+        "merchant": "Vegetable Market",
+        "amount": 2123.32,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-07",
+        "merchant": "Local Trader",
+        "amount": 2553.77,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-06",
+        "merchant": "Local Trader",
+        "amount": 1394.13,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-06",
+        "merchant": "Grocery Store",
+        "amount": 432.65,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-06",
+        "merchant": "Milk Collection",
+        "amount": 1907.2,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-05",
+        "merchant": "Grocery Store",
+        "amount": 521.06,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-05",
+        "merchant": "Milk Collection",
+        "amount": 3923.1,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-05",
+        "merchant": "Local Trader",
+        "amount": 2547.02,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-02",
+        "merchant": "Milk Collection",
+        "amount": 1175.73,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-30",
+        "merchant": "Mobile Recharge",
+        "amount": 865.65,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-29",
+        "merchant": "Local Trader",
+        "amount": 1763.15,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-27",
+        "merchant": "Medical Store",
+        "amount": 1440.72,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-27",
+        "merchant": "Medical Store",
+        "amount": 1253.46,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-27",
+        "merchant": "Mobile Recharge",
+        "amount": 546.49,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-26",
+        "merchant": "Milk Collection",
+        "amount": 2352.29,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-26",
+        "merchant": "Medical Store",
+        "amount": 323.51,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-26",
+        "merchant": "Mobile Recharge",
+        "amount": 258.26,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-26",
+        "merchant": "Medical Store",
+        "amount": 1114.46,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-25",
+        "merchant": "Vegetable Market",
+        "amount": 4352.28,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-24",
+        "merchant": "Milk Collection",
+        "amount": 2217.76,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-24",
+        "merchant": "Milk Collection",
+        "amount": 594.52,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-24",
+        "merchant": "Grocery Store",
+        "amount": 704.4,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-23",
+        "merchant": "Grocery Store",
+        "amount": 328.42,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-23",
+        "merchant": "Milk Collection",
+        "amount": 4668.87,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-23",
+        "merchant": "Medical Store",
+        "amount": 850.49,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-22",
+        "merchant": "Vegetable Market",
+        "amount": 2048.09,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-22",
+        "merchant": "Vegetable Market",
+        "amount": 1444.12,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-22",
+        "merchant": "Local Trader",
+        "amount": 2813.66,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-21",
+        "merchant": "Mobile Recharge",
+        "amount": 482.77,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-21",
+        "merchant": "Local Trader",
+        "amount": 4562.37,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-21",
+        "merchant": "Vegetable Market",
+        "amount": 4331.09,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-20",
+        "merchant": "Grocery Store",
+        "amount": 528.92,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-20",
+        "merchant": "Vegetable Market",
+        "amount": 2993.82,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-20",
+        "merchant": "Milk Collection",
+        "amount": 3595.38,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-20",
+        "merchant": "Milk Collection",
+        "amount": 1734.8,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-19",
+        "merchant": "Milk Collection",
+        "amount": 1635.9,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-17",
+        "merchant": "Vegetable Market",
+        "amount": 2231.71,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-17",
+        "merchant": "Grocery Store",
+        "amount": 753.39,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-16",
+        "merchant": "Vegetable Market",
+        "amount": 3251.3,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-16",
+        "merchant": "Grocery Store",
+        "amount": 473.92,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-16",
+        "merchant": "Mobile Recharge",
+        "amount": 788.17,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-16",
+        "merchant": "Milk Collection",
+        "amount": 3044.16,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-15",
+        "merchant": "Milk Collection",
+        "amount": 650.74,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-15",
+        "merchant": "Vegetable Market",
+        "amount": 4035.58,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-15",
+        "merchant": "Local Trader",
+        "amount": 4214.42,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-15",
+        "merchant": "Local Trader",
+        "amount": 1501.24,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-14",
+        "merchant": "Local Trader",
+        "amount": 3633.5,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-13",
+        "merchant": "Medical Store",
+        "amount": 575.18,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-13",
+        "merchant": "Milk Collection",
+        "amount": 3805.33,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-12",
+        "merchant": "Local Trader",
+        "amount": 880.4,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-11",
+        "merchant": "Vegetable Market",
+        "amount": 1034.62,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-11",
+        "merchant": "Vegetable Market",
+        "amount": 640.94,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-10",
+        "merchant": "Local Trader",
+        "amount": 735.66,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-09",
+        "merchant": "Mobile Recharge",
+        "amount": 372.23,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-09",
+        "merchant": "Local Trader",
+        "amount": 636.2,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-09",
+        "merchant": "Local Trader",
+        "amount": 3492.11,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-07",
+        "merchant": "Medical Store",
+        "amount": 429.14,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-07",
+        "merchant": "Medical Store",
+        "amount": 889.52,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-07",
+        "merchant": "Vegetable Market",
+        "amount": 1393.52,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-05",
+        "merchant": "Mobile Recharge",
+        "amount": 232.37,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-05",
+        "merchant": "Milk Collection",
+        "amount": 4491.45,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      }
+    ],
+    "satellite": {
+      "coordinates": {
+        "lat": 18.5204,
+        "lon": 73.8567
+      },
+      "ndvi_average": 0.52,
+      "ndvi_trend": "stable",
+      "timeseries": [
+        {
+          "date": "2026-03-04",
+          "ndvi": 0.423,
+          "cloud_cover": 23.896907352271512,
+          "quality": "good"
+        },
+        {
+          "date": "2026-02-02",
+          "ndvi": 0.589,
+          "cloud_cover": 3.787982540876352,
+          "quality": "good"
+        },
+        {
+          "date": "2026-01-03",
+          "ndvi": 0.606,
+          "cloud_cover": 4.415102513379722,
+          "quality": "good"
+        },
+        {
+          "date": "2025-12-04",
+          "ndvi": 0.628,
+          "cloud_cover": 3.535384189125973,
+          "quality": "moderate"
+        },
+        {
+          "date": "2025-11-04",
+          "ndvi": 0.6,
+          "cloud_cover": 6.351939259097016,
+          "quality": "moderate"
+        },
+        {
+          "date": "2025-10-05",
+          "ndvi": 0.562,
+          "cloud_cover": 1.230138990435009,
+          "quality": "good"
+        },
+        {
+          "date": "2025-09-05",
+          "ndvi": 0.571,
+          "cloud_cover": 8.927486130285565,
+          "quality": "good"
+        },
+        {
+          "date": "2025-08-06",
+          "ndvi": 0.603,
+          "cloud_cover": 29.763866460160564,
+          "quality": "moderate"
+        },
+        {
+          "date": "2025-07-07",
+          "ndvi": 0.683,
+          "cloud_cover": 3.199395378487621,
+          "quality": "good"
+        },
+        {
+          "date": "2025-06-07",
+          "ndvi": 0.45,
+          "cloud_cover": 28.24731328486683,
+          "quality": "good"
+        },
+        {
+          "date": "2025-05-08",
+          "ndvi": 0.446,
+          "cloud_cover": 16.956641066642646,
+          "quality": "good"
+        },
+        {
+          "date": "2025-04-08",
+          "ndvi": 0.444,
+          "cloud_cover": 13.67850169415133,
+          "quality": "good"
+        }
+      ],
+      "land_validated": true,
+      "crop_health": "good"
+    },
+    "utilities": {
+      "payments": [
+        {
+          "type": "electricity",
+          "bill_date": "2026-03-04",
+          "due_date": "2026-03-19",
+          "amount": 1084.23,
+          "paid": true,
+          "payment_date": "2026-03-04",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2026-03-04",
+          "due_date": "2026-03-14",
+          "amount": 201.66,
+          "paid": true,
+          "payment_date": "2026-03-04",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2026-02-02",
+          "due_date": "2026-02-17",
+          "amount": 745.12,
+          "paid": true,
+          "payment_date": "2026-02-02",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2026-02-02",
+          "due_date": "2026-02-12",
+          "amount": 457.44,
+          "paid": true,
+          "payment_date": "2026-02-02",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2026-01-03",
+          "due_date": "2026-01-18",
+          "amount": 896.97,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2026-01-03",
+          "due_date": "2026-01-13",
+          "amount": 329.44,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-12-04",
+          "due_date": "2025-12-19",
+          "amount": 630.59,
+          "paid": true,
+          "payment_date": "2025-12-07",
+          "delay_days": 3
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-12-04",
+          "due_date": "2025-12-14",
+          "amount": 479.01,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-11-04",
+          "due_date": "2025-11-19",
+          "amount": 743.46,
+          "paid": true,
+          "payment_date": "2025-11-10",
+          "delay_days": 6
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-11-04",
+          "due_date": "2025-11-14",
+          "amount": 446.27,
+          "paid": true,
+          "payment_date": "2025-11-04",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-10-05",
+          "due_date": "2025-10-20",
+          "amount": 947.69,
+          "paid": true,
+          "payment_date": "2025-10-05",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-10-05",
+          "due_date": "2025-10-15",
+          "amount": 450.21,
+          "paid": true,
+          "payment_date": "2025-10-05",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-09-05",
+          "due_date": "2025-09-20",
+          "amount": 885.58,
+          "paid": true,
+          "payment_date": "2025-09-05",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-09-05",
+          "due_date": "2025-09-15",
+          "amount": 267.18,
+          "paid": true,
+          "payment_date": "2025-09-08",
+          "delay_days": 3
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-08-06",
+          "due_date": "2025-08-21",
+          "amount": 911.75,
+          "paid": true,
+          "payment_date": "2025-08-06",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-08-06",
+          "due_date": "2025-08-16",
+          "amount": 440.4,
+          "paid": true,
+          "payment_date": "2025-08-06",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-07-07",
+          "due_date": "2025-07-22",
+          "amount": 1049.71,
+          "paid": true,
+          "payment_date": "2025-07-07",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-07-07",
+          "due_date": "2025-07-17",
+          "amount": 326.96,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-06-07",
+          "due_date": "2025-06-22",
+          "amount": 1008.81,
+          "paid": true,
+          "payment_date": "2025-06-07",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-06-07",
+          "due_date": "2025-06-17",
+          "amount": 207.66,
+          "paid": true,
+          "payment_date": "2025-06-07",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-05-08",
+          "due_date": "2025-05-23",
+          "amount": 924.07,
+          "paid": true,
+          "payment_date": "2025-05-08",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-05-08",
+          "due_date": "2025-05-18",
+          "amount": 456.22,
+          "paid": true,
+          "payment_date": "2025-05-11",
+          "delay_days": 3
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-04-08",
+          "due_date": "2025-04-23",
+          "amount": 741.64,
+          "paid": true,
+          "payment_date": "2025-04-08",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-04-08",
+          "due_date": "2025-04-18",
+          "amount": 467.45,
+          "paid": true,
+          "payment_date": "2025-04-17",
+          "delay_days": 9
+        }
+      ],
+      "summary": {
+        "total_bills": 24,
+        "paid_bills": 20,
+        "payment_rate": 83.3,
+        "average_delay": 1.2,
+        "score": 65
+      }
+    },
+    "weather": {
+      "risk_level": "medium",
+      "risk_score": 0.78,
+      "risk_factors": [
+        "moderate_rainfall"
+      ],
+      "annual_rainfall": 780,
+      "extreme_weather_days": 6,
+      "drought_risk": false,
+      "flood_risk": false
+    },
+    "ai_insights": "\nRisk Assessment: Medium Risk\n\nSunita Devi shows moderate creditworthiness with a GramScore of 625/900.\n\nKey Observations:\n\u2022 Moderate UPI transaction consistency (68%)\n\u2022 Average agricultural productivity (NDVI: 0.52)\n\u2022 Acceptable utility payment record (65/100)\n\u2022 Developing financial management skills\n\nRecommendations:\n\u2022 Conditional approval for loan up to \u20b975,000\n\u2022 Interest rate: 12% with monthly monitoring\n\u2022 Require crop insurance coverage\n\u2022 Provide financial literacy training\n\u2022 Review after 6 months for rate reduction\n\nThe applicant has potential but needs support and monitoring.\n        "
+  },
+  "ramesh_patil_003": {
+    "profile": {
+      "name": "Ramesh Patil",
+      "phone": "+91-9876543212",
+      "location": "Solapur, Maharashtra",
+      "profile": {
+        "age": 28,
+        "experience_years": 3,
+        "land_acres": 0.9,
+        "crops": [
+          "Cotton"
+        ],
+        "education": "High School",
+        "family_size": 3
+      },
+      "gramscore": 485,
+      "risk_level": "High",
+      "loan_recommendation": {
+        "approved": false,
+        "reason": "Insufficient credit history and low financial stability",
+        "alternative": "Government subsidy programs",
+        "suggestions": [
+          "Build UPI transaction history",
+          "Improve crop productivity",
+          "Complete financial literacy training",
+          "Apply for PM-KISAN scheme"
+        ]
+      },
+      "data": {
+        "upi_consistency": 42,
+        "transaction_volume": 12000,
+        "ndvi_avg": 0.35,
+        "utility_payment_score": 48,
+        "psychometric_score": 52,
+        "weather_impact": 0.65,
+        "land_size": 0.9,
+        "crop_types": [
+          "Cotton"
+        ]
+      },
+      "voice_responses": {
+        "q1": {
+          "question": "How do you typically plan your monthly expenses?",
+          "response": "I don't really plan much. I spend as needed and hope there's enough left.",
+          "score": 45
+        },
+        "q2": {
+          "question": "What would you do if you had an unexpected expense of \u20b95000?",
+          "response": "I don't know. Maybe ask someone for help or delay the payment.",
+          "score": 40
+        },
+        "q3": {
+          "question": "How do you decide when to invest in new farming equipment?",
+          "response": "I haven't bought any equipment yet. Too expensive.",
+          "score": 50
+        },
+        "q4": {
+          "question": "Describe your experience with digital payments like UPI.",
+          "response": "I don't use UPI much. I prefer cash. Mobile apps are confusing.",
+          "score": 35
+        },
+        "q5": {
+          "question": "How confident are you about repaying a loan on time?",
+          "response": "I hope I can repay. It depends on the crop yield.",
+          "score": 55
+        }
+      }
+    },
+    "transactions": [
+      {
+        "date": "2026-03-03",
+        "merchant": "Local Trader",
+        "amount": 4424.35,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-03",
+        "merchant": "Grocery Store",
+        "amount": 656.85,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-03",
+        "merchant": "Grocery Store",
+        "amount": 1401.68,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-03-03",
+        "merchant": "Grocery Store",
+        "amount": 783.94,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-26",
+        "merchant": "Local Trader",
+        "amount": 652.09,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-25",
+        "merchant": "Medical Store",
+        "amount": 929.8,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-24",
+        "merchant": "Local Trader",
+        "amount": 4496.23,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-22",
+        "merchant": "Grocery Store",
+        "amount": 1149.67,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-22",
+        "merchant": "Local Trader",
+        "amount": 1831.55,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-22",
+        "merchant": "Grocery Store",
+        "amount": 125.42,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-21",
+        "merchant": "Cash Sale",
+        "amount": 4549.97,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-21",
+        "merchant": "Medical Store",
+        "amount": 466.68,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-21",
+        "merchant": "Local Trader",
+        "amount": 3060.09,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-20",
+        "merchant": "Medical Store",
+        "amount": 1191.57,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-20",
+        "merchant": "Medical Store",
+        "amount": 1493.35,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-17",
+        "merchant": "Local Trader",
+        "amount": 2597.29,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-17",
+        "merchant": "Local Trader",
+        "amount": 4920.88,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-16",
+        "merchant": "Local Trader",
+        "amount": 4273.44,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-16",
+        "merchant": "Grocery Store",
+        "amount": 418.18,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-16",
+        "merchant": "Cash Sale",
+        "amount": 3118.11,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-15",
+        "merchant": "Cash Sale",
+        "amount": 4302.24,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-15",
+        "merchant": "Local Trader",
+        "amount": 4442.17,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-09",
+        "merchant": "Local Trader",
+        "amount": 4365.54,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-09",
+        "merchant": "Local Trader",
+        "amount": 949.99,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-09",
+        "merchant": "Local Trader",
+        "amount": 1606.37,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-08",
+        "merchant": "Local Trader",
+        "amount": 2000.88,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-08",
+        "merchant": "Medical Store",
+        "amount": 815.85,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-08",
+        "merchant": "Grocery Store",
+        "amount": 567.35,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-08",
+        "merchant": "Medical Store",
+        "amount": 1031.49,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-03",
+        "merchant": "Medical Store",
+        "amount": 1314.45,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-02-03",
+        "merchant": "Medical Store",
+        "amount": 1370.6,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-29",
+        "merchant": "Medical Store",
+        "amount": 1460.3,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-29",
+        "merchant": "Cash Sale",
+        "amount": 2402.55,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-26",
+        "merchant": "Grocery Store",
+        "amount": 534.89,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-25",
+        "merchant": "Cash Sale",
+        "amount": 2262.45,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-25",
+        "merchant": "Cash Sale",
+        "amount": 4078.21,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-25",
+        "merchant": "Cash Sale",
+        "amount": 3851.4,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-24",
+        "merchant": "Cash Sale",
+        "amount": 2789.43,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-21",
+        "merchant": "Local Trader",
+        "amount": 1371.25,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-18",
+        "merchant": "Cash Sale",
+        "amount": 2806.84,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-18",
+        "merchant": "Medical Store",
+        "amount": 153.06,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-18",
+        "merchant": "Grocery Store",
+        "amount": 355.13,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-17",
+        "merchant": "Medical Store",
+        "amount": 210.58,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-17",
+        "merchant": "Cash Sale",
+        "amount": 1262.9,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-09",
+        "merchant": "Local Trader",
+        "amount": 1901.26,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-09",
+        "merchant": "Local Trader",
+        "amount": 2137.61,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-06",
+        "merchant": "Medical Store",
+        "amount": 1252.99,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-06",
+        "merchant": "Local Trader",
+        "amount": 4807.29,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-02",
+        "merchant": "Medical Store",
+        "amount": 795.96,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-02",
+        "merchant": "Local Trader",
+        "amount": 4848.12,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-01",
+        "merchant": "Cash Sale",
+        "amount": 2165.21,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-01",
+        "merchant": "Local Trader",
+        "amount": 2371.19,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-01",
+        "merchant": "Local Trader",
+        "amount": 3403.12,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2026-01-01",
+        "merchant": "Medical Store",
+        "amount": 687.28,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-30",
+        "merchant": "Cash Sale",
+        "amount": 2537.37,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-30",
+        "merchant": "Cash Sale",
+        "amount": 1660.72,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-30",
+        "merchant": "Local Trader",
+        "amount": 4535.79,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-30",
+        "merchant": "Cash Sale",
+        "amount": 2043.89,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-29",
+        "merchant": "Medical Store",
+        "amount": 265.62,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-29",
+        "merchant": "Cash Sale",
+        "amount": 638.49,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-29",
+        "merchant": "Medical Store",
+        "amount": 568.12,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-27",
+        "merchant": "Grocery Store",
+        "amount": 492.74,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-27",
+        "merchant": "Grocery Store",
+        "amount": 980.24,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-27",
+        "merchant": "Local Trader",
+        "amount": 3642.24,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-23",
+        "merchant": "Local Trader",
+        "amount": 3158.26,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-21",
+        "merchant": "Grocery Store",
+        "amount": 1183.68,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-21",
+        "merchant": "Cash Sale",
+        "amount": 4171.01,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-21",
+        "merchant": "Local Trader",
+        "amount": 2180.32,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-21",
+        "merchant": "Cash Sale",
+        "amount": 825.43,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-20",
+        "merchant": "Cash Sale",
+        "amount": 554.07,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-20",
+        "merchant": "Grocery Store",
+        "amount": 751.09,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-19",
+        "merchant": "Cash Sale",
+        "amount": 4327.55,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-19",
+        "merchant": "Local Trader",
+        "amount": 2869.4,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-18",
+        "merchant": "Local Trader",
+        "amount": 2400.5,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-12",
+        "merchant": "Local Trader",
+        "amount": 4486.57,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-12",
+        "merchant": "Medical Store",
+        "amount": 641.33,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-12",
+        "merchant": "Local Trader",
+        "amount": 2599.29,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-12",
+        "merchant": "Medical Store",
+        "amount": 814.42,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-11",
+        "merchant": "Cash Sale",
+        "amount": 2702.66,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-11",
+        "merchant": "Local Trader",
+        "amount": 1706.81,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-11",
+        "merchant": "Medical Store",
+        "amount": 504.52,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-09",
+        "merchant": "Grocery Store",
+        "amount": 791.64,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-09",
+        "merchant": "Medical Store",
+        "amount": 472.79,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-08",
+        "merchant": "Medical Store",
+        "amount": 137.11,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-08",
+        "merchant": "Medical Store",
+        "amount": 858.8,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-07",
+        "merchant": "Grocery Store",
+        "amount": 1020.91,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-06",
+        "merchant": "Cash Sale",
+        "amount": 1119.23,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-06",
+        "merchant": "Local Trader",
+        "amount": 3020.1,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-06",
+        "merchant": "Local Trader",
+        "amount": 3963.22,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-06",
+        "merchant": "Cash Sale",
+        "amount": 1999.11,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-05",
+        "merchant": "Medical Store",
+        "amount": 854.95,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-05",
+        "merchant": "Local Trader",
+        "amount": 3536.59,
+        "type": "credit",
+        "method": "UPI",
+        "status": "completed"
+      },
+      {
+        "date": "2025-12-05",
+        "merchant": "Medical Store",
+        "amount": 448.26,
+        "type": "debit",
+        "method": "UPI",
+        "status": "completed"
+      }
+    ],
+    "satellite": {
+      "coordinates": {
+        "lat": 18.5204,
+        "lon": 73.8567
+      },
+      "ndvi_average": 0.35,
+      "ndvi_trend": "declining",
+      "timeseries": [
+        {
+          "date": "2026-03-04",
+          "ndvi": 0.258,
+          "cloud_cover": 11.224556953926154,
+          "quality": "good"
+        },
+        {
+          "date": "2026-02-02",
+          "ndvi": 0.369,
+          "cloud_cover": 20.224131599823803,
+          "quality": "good"
+        },
+        {
+          "date": "2026-01-03",
+          "ndvi": 0.353,
+          "cloud_cover": 14.728221728009839,
+          "quality": "good"
+        },
+        {
+          "date": "2025-12-04",
+          "ndvi": 0.419,
+          "cloud_cover": 25.53788944887516,
+          "quality": "good"
+        },
+        {
+          "date": "2025-11-04",
+          "ndvi": 0.35,
+          "cloud_cover": 18.973125623551727,
+          "quality": "moderate"
+        },
+        {
+          "date": "2025-10-05",
+          "ndvi": 0.445,
+          "cloud_cover": 24.67449325326018,
+          "quality": "moderate"
+        },
+        {
+          "date": "2025-09-05",
+          "ndvi": 0.391,
+          "cloud_cover": 24.63517916934294,
+          "quality": "good"
+        },
+        {
+          "date": "2025-08-06",
+          "ndvi": 0.424,
+          "cloud_cover": 6.665315958208366,
+          "quality": "moderate"
+        },
+        {
+          "date": "2025-07-07",
+          "ndvi": 0.408,
+          "cloud_cover": 15.421484993385398,
+          "quality": "good"
+        },
+        {
+          "date": "2025-06-07",
+          "ndvi": 0.263,
+          "cloud_cover": 16.766846897240345,
+          "quality": "good"
+        },
+        {
+          "date": "2025-05-08",
+          "ndvi": 0.299,
+          "cloud_cover": 15.929672036240518,
+          "quality": "good"
+        },
+        {
+          "date": "2025-04-08",
+          "ndvi": 0.284,
+          "cloud_cover": 3.3308785681893593,
+          "quality": "good"
+        }
+      ],
+      "land_validated": true,
+      "crop_health": "poor"
+    },
+    "utilities": {
+      "payments": [
+        {
+          "type": "electricity",
+          "bill_date": "2026-03-04",
+          "due_date": "2026-03-19",
+          "amount": 1118.82,
+          "paid": true,
+          "payment_date": "2026-03-05",
+          "delay_days": 1
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2026-03-04",
+          "due_date": "2026-03-14",
+          "amount": 243.98,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2026-02-02",
+          "due_date": "2026-02-17",
+          "amount": 1131.97,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2026-02-02",
+          "due_date": "2026-02-12",
+          "amount": 372.48,
+          "paid": true,
+          "payment_date": "2026-02-02",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2026-01-03",
+          "due_date": "2026-01-18",
+          "amount": 1097.72,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2026-01-03",
+          "due_date": "2026-01-13",
+          "amount": 279.39,
+          "paid": true,
+          "payment_date": "2026-01-09",
+          "delay_days": 6
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-12-04",
+          "due_date": "2025-12-19",
+          "amount": 757.88,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-12-04",
+          "due_date": "2025-12-14",
+          "amount": 262.4,
+          "paid": true,
+          "payment_date": "2025-12-04",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-11-04",
+          "due_date": "2025-11-19",
+          "amount": 1047.51,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-11-04",
+          "due_date": "2025-11-14",
+          "amount": 206.37,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-10-05",
+          "due_date": "2025-10-20",
+          "amount": 986.72,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-10-05",
+          "due_date": "2025-10-15",
+          "amount": 246.4,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-09-05",
+          "due_date": "2025-09-20",
+          "amount": 679.87,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-09-05",
+          "due_date": "2025-09-15",
+          "amount": 265.67,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-08-06",
+          "due_date": "2025-08-21",
+          "amount": 725.46,
+          "paid": true,
+          "payment_date": "2025-08-06",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-08-06",
+          "due_date": "2025-08-16",
+          "amount": 392.17,
+          "paid": true,
+          "payment_date": "2025-08-06",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-07-07",
+          "due_date": "2025-07-22",
+          "amount": 797.27,
+          "paid": true,
+          "payment_date": "2025-07-07",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-07-07",
+          "due_date": "2025-07-17",
+          "amount": 381.7,
+          "paid": false,
+          "payment_date": null,
+          "delay_days": null
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-06-07",
+          "due_date": "2025-06-22",
+          "amount": 988.43,
+          "paid": true,
+          "payment_date": "2025-06-07",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-06-07",
+          "due_date": "2025-06-17",
+          "amount": 377.15,
+          "paid": true,
+          "payment_date": "2025-06-07",
+          "delay_days": 0
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-05-08",
+          "due_date": "2025-05-23",
+          "amount": 1187.36,
+          "paid": true,
+          "payment_date": "2025-05-08",
+          "delay_days": 0
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-05-08",
+          "due_date": "2025-05-18",
+          "amount": 317.34,
+          "paid": true,
+          "payment_date": "2025-05-09",
+          "delay_days": 1
+        },
+        {
+          "type": "electricity",
+          "bill_date": "2025-04-08",
+          "due_date": "2025-04-23",
+          "amount": 1068.19,
+          "paid": true,
+          "payment_date": "2025-04-15",
+          "delay_days": 7
+        },
+        {
+          "type": "mobile",
+          "bill_date": "2025-04-08",
+          "due_date": "2025-04-18",
+          "amount": 467.66,
+          "paid": true,
+          "payment_date": "2025-04-08",
+          "delay_days": 0
+        }
+      ],
+      "summary": {
+        "total_bills": 24,
+        "paid_bills": 13,
+        "payment_rate": 54.2,
+        "average_delay": 1.2,
+        "score": 48
+      }
+    },
+    "weather": {
+      "risk_level": "high",
+      "risk_score": 0.65,
+      "risk_factors": [
+        "drought_risk",
+        "extreme_weather"
+      ],
+      "annual_rainfall": 650,
+      "extreme_weather_days": 10,
+      "drought_risk": true,
+      "flood_risk": false
+    },
+    "ai_insights": "\nRisk Assessment: High Risk\n\nRamesh Patil shows limited credit readiness with a GramScore of 485/900.\n\nKey Concerns:\n\u2022 Low UPI transaction consistency (42%)\n\u2022 Below-average agricultural productivity (NDVI: 0.35)\n\u2022 Irregular utility payment pattern (48/100)\n\u2022 Limited financial planning experience\n\nRecommendations:\n\u2022 Loan not recommended at this time\n\u2022 Suggest government subsidy programs (PM-KISAN, PMFBY)\n\u2022 Enroll in financial literacy training\n\u2022 Build digital payment history over 6 months\n\u2022 Focus on improving crop productivity\n\u2022 Reapply after demonstrating consistent financial behavior\n\nAlternative support options available through government schemes.\n        "
+  }
+}

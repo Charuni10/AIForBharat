@@ -98,11 +98,26 @@ export const api = {
   /**
    * Submit user consent for data access
    */
-  submitConsent: (consentData) =>
-    apiCall('/consent', {
+  submitConsent: (consentData) => {
+    // For demo mode, auto-login if not authenticated
+    if (!api.isAuthenticated()) {
+      // Auto-login with demo user
+      return api.login({
+        user_id: 'rajesh_kumar_001',
+        phone: '+91-9876543210'
+      }).then(() => {
+        return apiCall('/consent', {
+          method: 'POST',
+          body: JSON.stringify(consentData),
+        });
+      });
+    }
+    
+    return apiCall('/consent', {
       method: 'POST',
       body: JSON.stringify(consentData),
-    }),
+    });
+  },
 
   // ============================================================================
   // DATA COLLECTION
@@ -124,11 +139,29 @@ export const api = {
   /**
    * Calculate GramScore based on user features
    */
-  calculateScore: (features) =>
-    apiCall('/score/calculate', {
+  calculateScore: (features) => {
+    // For demo mode, return mock data if not authenticated
+    if (!api.isAuthenticated()) {
+      return Promise.resolve({
+        success: true,
+        gramscore: 720,
+        confidence: 0.85,
+        components: {
+          transaction_frequency: 0.30,
+          agricultural_productivity: 0.30,
+          utility_payments: 0.20,
+          psychometric_score: 0.20
+        },
+        risk_level: 'Low',
+        recommendation: 'Approved for low-interest micro-loan'
+      });
+    }
+    
+    return apiCall('/score/calculate', {
       method: 'POST',
       body: JSON.stringify(features),
-    }),
+    });
+  },
 
   /**
    * Get user's score history
@@ -143,11 +176,25 @@ export const api = {
   /**
    * Submit voice assessment responses
    */
-  submitVoiceAssessment: (assessmentData) =>
-    apiCall('/voice/assess', {
+  submitVoiceAssessment: (assessmentData) => {
+    // For demo mode, auto-login if not authenticated
+    if (!api.isAuthenticated()) {
+      return api.login({
+        user_id: 'rajesh_kumar_001',
+        phone: '+91-9876543210'
+      }).then(() => {
+        return apiCall('/voice/assess', {
+          method: 'POST',
+          body: JSON.stringify(assessmentData),
+        });
+      });
+    }
+    
+    return apiCall('/voice/assess', {
       method: 'POST',
       body: JSON.stringify(assessmentData),
-    }),
+    });
+  },
 
   // ============================================================================
   // TRANSACTION ANALYSIS
